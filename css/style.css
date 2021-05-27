@@ -1,28 +1,31 @@
-div{
+.top-container{
     background-color: #e4efe7;
+    position: relative;
+    padding-top: 100px;
 }
 body{
     margin:0px;
+    text-align:center;
+    font-family: 'Merriweather', serif;
 }
 h1{
     margin-top:0;
+    font-family: 'Pacifico', cursive;
 }
-.top{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    padding: 10px 10px 10px 10px;
-    border:10px 10px 10px 10px;
-    border-color: black;    
-    
+h2{
+    font-family: 'Montserrat', sans-serif;
 }
-.middle{
-    background-color:yellow;
-    height: 200px;
-    width: 200px;
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
-.bottom{
-    background-color:black;
-    height: 200px;
-    width: 200px;
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top: 50px;
 }
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
